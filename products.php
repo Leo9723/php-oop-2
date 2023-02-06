@@ -5,13 +5,14 @@ class products
     public $name;
     public $price;
     public $animalType;
+    public $image;
 
     public function setName($name)
     {
         $this->name = $name;
     }
 
-    public function getName($name)
+    public function getName()
     {
         return $this->name;
     }
@@ -21,7 +22,7 @@ class products
         $this->price = $price;
     }
 
-    public function getPrice($price)
+    public function getPrice()
     {
         return $this->price;
     }
@@ -31,8 +32,18 @@ class products
         $this->animalType = $animalType;
     }
 
-    public function getAnimalType($animalType)
+    public function getAnimalType()
     {
         return $this->animalType;
+    }
+
+    public function setImage($image)
+    {
+        $this->image = $image;
+    }
+
+    public function getImage()
+    {
+        return $this->image;
     }
 }

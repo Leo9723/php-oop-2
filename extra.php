@@ -1,9 +1,15 @@
 <?php
 
-class kennel extends products
+class extra extends products
 {
     public $material;
     public $size;
+
+    public function __construct($material, $size)
+    {
+        $this->material = $material;
+        $this->size = $size;
+    }
 
     public function setMaterial($material)
     {

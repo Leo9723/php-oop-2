@@ -5,6 +5,12 @@ class food extends products
     public $weight;
     public $ingredients;
 
+    public function __construct($weight, $ingredients)
+    {
+        $this->weight = $weight;
+        $this->ingredients = $ingredients;
+    }
+
     public function setWeight($weight)
     {
         $this->weight = $weight;
