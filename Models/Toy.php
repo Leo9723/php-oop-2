@@ -1,6 +1,6 @@
 <?php
 
-class toy extends products
+class Toy extends Product
 {
     public $hallmarks;
     public $size;

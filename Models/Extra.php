@@ -1,6 +1,6 @@
 <?php
 
-class extra extends products
+class Extra extends Product
 {
     public $material;
     public $size;

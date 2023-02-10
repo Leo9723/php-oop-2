@@ -1,11 +1,13 @@
 <?php
-include __DIR__ . '/products.php';
-include __DIR__ . '/food.php';
-include __DIR__ . '/toy.php';
-include __DIR__ . '/extra.php';
+include __DIR__ . '/Products.php';
+include __DIR__ . '/Models/Food.php';
+include __DIR__ . '/Models/Toy.php';
+include __DIR__ . '/Models/Extra.php';
+
+// ESEMPIO IN FOOD SU COME STRINGERE IL CODICE
 
 
-
+// qua avrei dovuto mettere  new (es.)food(gcvwdhbkhqjldrbhfcdbejsn) senza funzioni set e get, questo per tutti i prodotti, successivamente racchiudere tutto in un array e richiamarlo in index col foreach per creare cards dinamicamente
 $food_1 = new food('545', 'prosciutto, riso');
 $food_1->setName('Royal Canin Mini Adult');
 $food_1->setPrice('43,99');
